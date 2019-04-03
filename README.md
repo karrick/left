@@ -20,3 +20,15 @@ left foo bar baz
 ```
 
 Still an error.
+
+## Installation
+
+This command requires a C compiler to build.
+
+```Bash
+make
+```
+
+No provisions have been added to the `Makefile` for installing this
+command, because it this command does not do anything useful, and most
+people should use the right command rather than this command.

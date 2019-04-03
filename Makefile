@@ -1,2 +1,7 @@
+.PHONY: clean
+
 left: left.c
-	cc -o $@ $<
+	cc -static -o $@ $^
+
+clean:
+	rm -f left
